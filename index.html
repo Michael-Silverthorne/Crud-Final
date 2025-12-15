@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>German Cars Crud Final</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="cars.js"></script>
+  <script src="vehicle.js"></script>
+</head>
+
+<body>
+
+<header>
+  <h1>German Performance Cars</h1>
+</header>
+
+<section id="controls">
+  <h2 style="color: white;">Car Controls</h2>
+
+  <div>                                    
+    <input type="text" id="createName" placeholder="Car Name" />
+    <input type="text" id="createBrand" placeholder="Brand" />
+    <input type="text" id="createYear" placeholder="Year" />
+    <input type="text" id="createEngine" placeholder="Engine" />
+    <input type="text" id="createDoors" placeholder="Doors" />
+    <button id="createButton">Create</button>
+  </div>
+
+  <button id="readButton">Read</button>
+  <button id="updateButton">Update</button>
+  <button id="deleteButton">Delete</button>
+  <div id="message" class="message"></div>
+</section>
+
+<div id="carWrapper" class="carWrapper"></div>
+
+<footer>
+  Michael Silverthorne
+</footer>
+
+</body>
+</html>
+
+

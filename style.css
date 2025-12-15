@@ -1,0 +1,75 @@
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(75, 75, 75);
+  text-align: center;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+header {
+  background-color: rgb(70, 90, 170);
+  color: white;
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: rgb(70, 90, 170);
+  padding: 10px 0;
+  margin-bottom: 0px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+button {
+  background-color: rgb(70, 90, 170);
+  color: white;
+  border-radius: 8px;
+  padding: 10px 20px;
+  margin: 8px;
+  cursor: pointer;
+}
+
+.carWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 15px;
+  gap: 20px;
+}
+
+.carCard {
+  background-color: seashell;
+  width: 600px;
+  height: 300px;
+  border: 2px solid black;
+  display: flex;
+  border-radius: 8px;
+}
+
+.carCard img {
+  width: 50%;
+  height: 100%;
+  object-fit: contain;
+  border-right: 2px solid black;
+}
+
+.carInfo {
+  width: 50%;
+  text-align: left;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+.carCard.selected {
+  border: 6px solid rgb(70, 90, 170);
+}
+
+.message {
+  font-weight: bold;
+  font-size: 24px;
+  color: white;
+}
